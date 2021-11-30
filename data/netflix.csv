@@ -1,0 +1,269 @@
+company,title,totalyearlycompensation,location,yearsofexperience,yearsatcompany,basesalary,bonus,Masters_Degree,Bachelors_Degree,Doctorate_Degree,Highschool,Some_College,facebook
+Netflix,Software Engineer,340000,"Los Gatos, CA",4.0,2.0,340000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,450000,"Los Gatos, CA",13.0,3.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,567000,"Los Gatos, CA",5.5,3.5,540000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineering Manager,550000,"Los Gatos, CA",15.0,7.0,550000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,325000,"Los Gatos, CA",1.5,0.0,325000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,346000,"Los Gatos, CA",3.0,0.0,330000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,600000,"Los Gatos, CA",3.0,1.0,600000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,525000,"Los Gatos, CA",17.0,1.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,400000,"Los Gatos, CA",7.0,1.0,400000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,340000,"Los Gatos, CA",5.0,0.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,320000,"Los Gatos, CA",10.0,1.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Product Manager,400000,"Los Gatos, CA",15.0,5.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineering Manager,550000,"Los Gatos, CA",14.0,2.0,550000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,380000,"Los Gatos, CA",6.0,1.0,380000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineering Manager,450000,"Los Gatos, CA",20.0,7.0,450000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,350000,"Los Gatos, CA",4.0,0.0,350000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,350000,"Los Gatos, CA",4.0,1.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineering Manager,500000,"Los Gatos, CA",12.0,3.0,500000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,400000,"Los Gatos, CA",2.0,2.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,475000,"Los Altos, CA",13.0,3.5,475000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineering Manager,400000,"Los Gatos, CA",10.0,6.0,400000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,350000,"Los Gatos, CA",6.0,0.4,0.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,425000,"Los Gatos, CA",10.0,7.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,565000,"San Francisco, CA",6.0,3.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,480000,"Los Gatos, CA",10.0,3.5,480000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,400000,"Los Gatos, CA",6.0,1.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,380000,"Los Gatos, CA",5.0,0.0,380000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,430000,"Los Gatos, CA",5.0,0.4,0.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,462000,"San Francisco, CA",10.0,3.0,420000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,350000,"Los Gatos, CA",5.0,0.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,430000,"Los Gatos, CA",5.0,0.5,430000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineering Manager,615000,"Los Gatos, CA",15.0,3.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,655000,"Los Gatos, CA",5.0,2.0,655000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineering Manager,650000,"Los Gatos, CA",10.0,4.0,650000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineering Manager,630000,"Los Gatos, CA",18.0,7.5,630000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,483000,"Los Gatos, CA",7.0,0.0,460000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,394000,"Los Gatos, CA",10.0,3.0,375000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,630000,"Los Gatos, CA",12.0,3.0,600000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,370000,"Los Gatos, CA",11.0,1.0,350000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,385000,"Los Gatos, CA",6.0,1.0,385000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,368000,"Los Gatos, CA",0.0,0.0,350000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,500000,"Los Gatos, CA",11.0,0.0,500000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,410000,"Los Angeles, CA",5.0,1.0,390000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,420000,"Los Gatos, CA",6.0,1.0,400000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,380000,"San Francisco, CA",8.0,1.0,380000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,495000,"Los Gatos, CA",10.0,4.0,495000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,435000,"Los Gatos, CA",7.0,1.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,525000,"Los Angeles, CA",15.0,4.0,525000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,475000,"Los Gatos, CA",14.0,1.0,475000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,440000,"Los Gatos, CA",10.0,4.0,420000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,462000,"Los Gatos, CA",14.0,1.0,440000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,570000,"Los Gatos, CA",11.0,4.0,570000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,688000,"San Francisco, CA",7.0,4.0,0.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,410000,"Los Gatos, CA",6.0,0.0,405000.0,10000.0,0,0,0,0,0,False
+Netflix,Software Engineer,460000,"Los Gatos, CA",6.0,3.0,460000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,450000,"Los Angeles, CA",4.0,2.0,425000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,336000,"Los Angeles, CA",8.0,1.0,320000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,430000,"Los Gatos, CA",10.0,1.0,405000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,464000,"Los Gatos, CA",10.0,5.0,420000.0,20000.0,0,0,0,0,0,False
+Netflix,Software Engineer,420000,"Los Gatos, CA",15.0,1.0,400000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,420000,"Los Gatos, CA",6.0,1.0,420000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,420000,"Los Gatos, CA",7.0,0.0,400000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,750000,"Los Gatos, CA",15.0,7.0,750000.0,0.0,0,0,0,0,0,False
+Netflix,Product Manager,168000,"Los Gatos, CA",3.0,2.0,160000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,410000,"Los Gatos, CA",8.0,1.0,390000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,450000,"Los Gatos, CA",4.0,0.5,450000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,570000,"Los Gatos, CA",15.0,1.0,570000.0,0.0,1,0,0,0,0,False
+Netflix,Data Scientist,465000,"Los Gatos, CA",6.0,3.0,465000.0,0.0,1,0,1,0,0,False
+Netflix,Software Engineer,504000,"Los Gatos, CA",13.0,3.0,480000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,551000,"Los Gatos, CA",14.0,3.0,525000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,462000,"Los Gatos, CA",7.0,2.0,440000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,472000,"Los Gatos, CA",9.0,0.0,450000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,351000,"Los Gatos, CA",5.0,2.0,350000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,525000,"Los Gatos, CA",6.0,1.0,500000.0,0.0,1,0,0,0,0,False
+Netflix,Product Designer,335000,"Los Gatos, CA",18.0,2.0,320000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,472000,"Los Gatos, CA",7.0,2.0,450000.0,0.0,1,0,0,0,0,False
+Netflix,Data Scientist,420000,"Los Angeles, CA",2.0,1.0,400000.0,0.0,0,0,1,0,0,False
+Netflix,Data Scientist,525000,"Los Gatos, CA",9.0,3.0,525000.0,0.0,0,0,1,0,0,False
+Netflix,Software Engineer,440000,"Los Gatos, CA",10.0,3.0,420000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,405000,"Los Gatos, CA",9.0,0.0,405000.0,0.0,1,0,0,0,0,False
+Netflix,Data Scientist,700000,"Los Angeles, CA",7.0,4.0,700000.0,0.0,0,0,1,0,0,False
+Netflix,Software Engineer,450000,"Los Gatos, CA",10.0,3.0,450000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,450000,"Los Gatos, CA",9.0,0.0,430000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,499000,"Los Gatos, CA",9.0,2.0,475000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,441000,"Los Gatos, CA",5.0,3.0,420000.0,0.0,0,0,0,0,0,False
+Netflix,Product Manager,550000,"Los Gatos, CA",15.0,2.0,550000.0,0.0,0,0,1,0,0,False
+Netflix,Software Engineer,560000,"Los Gatos, CA",6.0,2.0,560000.0,0.0,0,0,1,0,0,False
+Netflix,Software Engineering Manager,550000,"Los Altos, CA",15.0,8.0,500000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,451000,"Los Gatos, CA",4.0,0.0,430000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,378000,"Los Angeles, CA",9.0,2.0,360000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,420000,"Los Gatos, CA",6.0,2.0,400000.0,0.0,1,0,0,0,0,False
+Netflix,Product Manager,840000,"Los Altos, CA",20.0,2.0,800000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,472000,"San Jose, CA",11.0,2.0,450000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,577000,"Los Gatos, CA",20.0,4.0,550000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,420000,"Los Gatos, CA",10.0,3.0,395000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,399000,"Los Angeles, CA",5.0,2.0,380000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,515000,"Los Gatos, CA",10.0,0.0,515000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,390000,"Los Gatos, CA",16.0,3.0,390000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,467000,"Los Gatos, CA",2.0,1.0,445000.0,0.0,0,0,1,0,0,False
+Netflix,Software Engineer,470000,"Los Gatos, CA",10.0,1.0,450000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,400000,"Los Gatos, CA",6.0,2.0,380000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,525000,"Los Gatos, CA",13.0,6.0,500000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineering Manager,650000,"Los Gatos, CA",20.0,4.0,600000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,455000,"Los Gatos, CA",13.0,6.0,435000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,405000,"Los Gatos, CA",9.0,1.0,405000.0,0.0,1,0,0,0,0,False
+Netflix,Data Scientist,375000,"Los Gatos, CA",0.0,0.0,255000.0,100000.0,0,0,0,0,0,False
+Netflix,Software Engineer,441000,"Los Angeles, CA",9.0,2.0,420000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,450000,"San Francisco, CA",5.0,2.0,400000.0,20000.0,0,0,0,0,0,False
+Netflix,Software Engineer,450000,"Los Gatos, CA",6.0,1.0,450000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,510000,"Los Gatos, CA",10.0,1.0,480000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,525000,"Los Gatos, CA",10.0,4.0,500000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,600000,"Los Gatos, CA",9.0,4.0,600000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,450000,"Los Gatos, CA",6.0,0.0,450000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,472000,"Los Gatos, CA",8.0,0.0,450000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,500000,"Los Gatos, CA",5.0,0.0,500000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,441000,"Los Gatos, CA",7.0,2.0,420000.0,0.0,1,0,0,0,0,False
+Netflix,Product Manager,500000,"Los Gatos, CA",7.0,2.0,500000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,473000,"Los Gatos, CA",8.0,2.0,450000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,650000,"Los Gatos, CA",15.0,5.0,650000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,475000,"Los Gatos, CA",15.0,4.0,460000.0,0.0,0,0,0,0,0,False
+Netflix,Product Manager,330000,"Los Gatos, CA",5.0,2.0,300000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,341000,"Los Gatos, CA",2.0,0.0,325000.0,0.0,0,1,0,0,0,False
+Netflix,Data Scientist,400000,"Los Gatos, CA",3.0,3.0,400000.0,0.0,0,0,1,0,0,False
+Netflix,Software Engineer,420000,"Los Gatos, CA",7.0,2.0,420000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineering Manager,630000,"Los Gatos, CA",15.0,1.0,600000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,473000,"Los Angeles, CA",15.0,5.0,450000.0,0.0,0,1,0,0,0,False
+Netflix,Product Manager,225000,"Los Angeles, CA",12.0,1.0,215000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,420000,"Los Gatos, CA",3.0,0.0,400000.0,0.0,0,1,0,0,0,False
+Netflix,Recruiter,300000,"Los Angeles, CA",15.0,4.0,240000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,600000,"Los Gatos, CA",10.0,1.0,600000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineering Manager,610000,"Los Gatos, CA",15.0,1.0,610000.0,0.0,0,0,0,0,0,False
+Netflix,Recruiter,250000,"Los Gatos, CA",5.0,4.0,250000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,585000,"Los Gatos, CA",17.0,7.0,560000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,410000,"Los Gatos, CA",10.0,3.0,410000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,550000,"Los Gatos, CA",15.0,7.0,550000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,605000,"Los Angeles, CA",7.0,2.0,550000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineering Manager,700000,"Los Gatos, CA",10.0,2.0,700000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,450000,"Los Gatos, CA",10.0,1.0,430000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineering Manager,600000,"Los Gatos, CA",20.0,8.0,600000.0,0.0,1,0,0,0,0,False
+Netflix,Marketing,788000,"Hollywood, CA",15.0,0.0,750000.0,0.0,0,0,0,0,0,False
+Netflix,Recruiter,300000,"San Francisco, CA",9.0,4.0,300000.0,0.0,0,1,0,0,0,False
+Netflix,Marketing,120000,"Los Angeles, CA",4.0,0.0,120000.0,0.0,0,1,0,0,0,False
+Netflix,Marketing,385000,"Los Angeles, CA",9.0,1.0,347000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,368000,"Los Angeles, CA",11.0,0.0,350000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,485000,"Los Gatos, CA",10.0,4.0,485000.0,0.0,0,1,0,0,0,False
+Netflix,Recruiter,189000,"Los Gatos, CA",5.0,4.0,180000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,600000,"Los Gatos, CA",13.0,4.0,560000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,593000,"Los Gatos, CA",15.0,4.0,565000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,452000,"Los Gatos, CA",9.0,0.0,430000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineering Manager,670000,"Los Gatos, CA",10.0,3.0,640000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,435000,"Portland, OR",10.0,0.0,415000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,473000,"Los Gatos, CA",12.0,5.0,450000.0,0.0,0,0,0,1,0,False
+Netflix,Software Engineer,420000,"Los Gatos, CA",9.0,7.0,400000.0,0.0,1,0,0,0,0,False
+Netflix,Data Scientist,400000,"Los Gatos, CA",10.0,2.0,320000.0,60000.0,1,0,0,0,0,False
+Netflix,Software Engineer,400000,"Los Gatos, CA",10.0,1.0,400000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,680000,"Los Gatos, CA",10.0,5.0,680000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,500000,"Los Gatos, CA",20.0,10.0,500000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineering Manager,600000,"Los Gatos, CA",24.0,1.0,600000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,700000,"Los Gatos, CA",20.0,4.0,700000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,700000,"Los Angeles, CA",8.0,4.0,700000.0,0.0,0,0,1,0,0,False
+Netflix,Software Engineer,509000,"San Francisco, CA",10.0,5.0,480000.0,5000.0,0,1,0,0,0,False
+Netflix,Data Scientist,450000,"Los Angeles, CA",3.0,0.0,450000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,483000,"Los Gatos, CA",5.0,3.0,483000.0,0.0,0,0,0,0,0,False
+Netflix,Marketing,315000,"Los Angeles, CA",7.0,3.0,300000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,420000,"Los Gatos, CA",8.0,2.0,400000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,840000,"Los Gatos, CA",8.0,5.0,800000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,441000,"Los Gatos, CA",7.0,3.0,420000.0,0.0,0,1,0,0,0,False
+Netflix,Business Analyst,275000,"San Francisco, CA",7.0,3.0,175000.0,50000.0,0,0,0,0,0,False
+Netflix,Software Engineer,570000,"Los Gatos, CA",17.0,4.0,570000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,735000,"Los Gatos, CA",15.0,5.0,700000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,400000,"Los Gatos, CA",4.0,2.0,400000.0,0.0,0,0,1,0,0,False
+Netflix,Software Engineer,441000,"Los Gatos, CA",5.0,3.0,441000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineering Manager,800000,"Los Gatos, CA",8.0,3.0,800000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,457000,"New York, NY",6.0,0.0,435000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,499000,"Los Gatos, CA",6.0,0.0,475000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,520000,"Los Gatos, CA",12.0,2.0,520000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,550000,"Los Gatos, CA",15.0,3.0,550000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,554000,"Los Gatos, CA",10.0,1.0,554000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,490000,"Los Gatos, CA",8.0,2.0,490000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,525000,"Los Gatos, CA",8.0,5.0,525000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,798000,"Los Gatos, CA",20.0,6.0,760000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,525000,"San Francisco, CA",13.0,3.0,500000.0,0.0,0,0,0,0,0,False
+Netflix,Product Manager,500000,"Los Gatos, CA",3.0,1.0,350000.0,50000.0,0,1,0,0,0,False
+Netflix,Software Engineer,715000,"Los Angeles, CA",9.0,0.0,715000.0,0.0,0,0,0,0,0,False
+Netflix,Technical Program Manager,430000,"Los Gatos, CA",18.0,12.0,430000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,425000,"Los Gatos, CA",10.0,5.0,405000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,630000,"Los Gatos, CA",21.0,9.0,630000.0,0.0,0,1,0,0,0,False
+Netflix,Data Scientist,600000,"Los Angeles, CA",10.0,5.0,600000.0,0.0,0,0,1,0,0,False
+Netflix,Human Resources,350000,"New York, NY",10.0,2.0,325000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,431000,"Los Gatos, CA",9.0,2.0,410000.0,0.0,1,0,0,0,0,False
+Netflix,Technical Program Manager,220000,"Los Gatos, CA",10.0,9.0,190000.0,15000.0,0,0,0,0,0,False
+Netflix,Software Engineer,500000,"Los Angeles, CA",5.0,0.0,500000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,630000,"Los Gatos, CA",10.0,5.0,600000.0,0.0,0,0,1,0,0,False
+Netflix,Product Manager,550000,"Los Angeles, CA",10.0,3.0,550000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,430000,"Los Gatos, CA",3.0,0.0,430000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,641000,"Los Gatos, CA",9.0,3.0,641000.0,0.0,1,0,0,0,0,False
+Netflix,Recruiter,222000,"Los Gatos, CA",7.0,2.0,222000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineering Manager,620000,"Los Gatos, CA",11.0,1.0,620000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,630000,"Los Gatos, CA",12.0,5.0,600000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,693000,"Los Gatos, CA",18.0,9.0,693000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineering Manager,682000,"Los Gatos, CA",14.0,5.0,650000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineering Manager,650000,"Los Gatos, CA",21.0,0.0,650000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,600000,"Los Gatos, CA",12.0,0.0,600000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,540000,"New York, NY",10.0,0.0,540000.0,0.0,0,1,0,0,0,False
+Netflix,Data Scientist,420000,"Los Gatos, CA",6.0,2.0,400000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,405000,"New York, NY",6.0,0.0,385000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,390000,"Los Gatos, CA",9.0,3.0,390000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,275000,"Los Gatos, CA",13.0,8.0,275000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,455000,"Los Gatos, CA",15.0,8.0,430000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,630000,"Los Angeles, CA",6.0,4.0,630000.0,0.0,0,0,1,0,0,False
+Netflix,Software Engineer,446000,"Los Gatos, CA",10.0,5.0,446000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,484000,"Los Gatos, CA",10.0,1.0,484000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,475000,"Los Gatos, CA",14.0,3.0,475000.0,0.0,0,1,0,0,0,False
+Netflix,Marketing,290000,"Los Angeles, CA",14.0,3.0,290000.0,0.0,0,0,0,0,0,False
+Netflix,Recruiter,220000,"Los Angeles, CA",7.0,1.0,220000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,640000,"Los Gatos, CA",15.0,1.0,608000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,546000,"Los Gatos, CA",4.0,2.0,493000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,650000,"Los Gatos, CA",15.0,5.0,650000.0,0.0,1,0,0,0,0,False
+Netflix,Technical Program Manager,250000,"Los Angeles, CA",12.0,4.0,250000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,400000,"Washington, DC",10.0,0.0,400000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,451000,"Los Gatos, CA",11.0,3.0,451000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,500000,"Los Gatos, CA",5.0,0.0,500000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,683000,"Los Gatos, CA",9.0,4.0,683000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,163000,"Amsterdam, NH, Netherlands",7.0,1.0,163000.0,0.0,0,0,0,1,0,False
+Netflix,Software Engineer,473000,"Los Gatos, CA",7.0,1.0,450000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineering Manager,600000,"Los Gatos, CA",12.0,1.0,600000.0,0.0,0,0,0,1,0,False
+Netflix,Software Engineer,565000,"Los Gatos, CA",15.0,5.0,565000.0,0.0,0,1,0,0,0,False
+Netflix,Recruiter,156000,"Los Gatos, CA",8.0,1.0,156000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,525000,"Los Angeles, CA",10.0,3.0,525000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,500000,"Los Gatos, CA",15.0,2.0,500000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,435000,"Los Angeles, CA",11.0,0.0,420000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,450000,"Los Gatos, CA",11.0,6.0,450000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,475000,"Los Angeles, CA",5.0,0.0,475000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,650000,"Los Angeles, CA",20.0,3.0,650000.0,0.0,0,0,0,0,1,False
+Netflix,Data Scientist,525000,"Los Gatos, CA",6.0,2.0,525000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,600000,"Los Gatos, CA",6.0,0.0,600000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,220000,"Los Gatos, CA",20.0,4.0,210000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,525000,"Los Gatos, CA",11.0,3.0,500000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,500000,"San Jose, CA",15.0,5.0,500000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,893000,"Los Gatos, CA",19.0,8.0,893000.0,0.0,0,1,0,0,0,False
+Netflix,Technical Program Manager,305000,"Los Angeles, CA",2.0,2.0,275000.0,16000.0,1,0,0,0,0,False
+Netflix,Software Engineer,840000,"Los Gatos, CA",20.0,6.0,840000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,441000,"Los Gatos, CA",6.0,1.0,441000.0,0.0,0,1,0,0,0,False
+Netflix,Product Designer,350000,"Los Gatos, CA",8.0,1.0,300000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineering Manager,700000,"Los Gatos, CA",18.0,6.0,700000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,505000,"Los Gatos, CA",3.0,3.0,505000.0,0.0,0,0,1,0,0,False
+Netflix,Software Engineer,861000,"Los Gatos, CA",15.0,7.0,861000.0,0.0,0,1,0,0,0,False
+Netflix,Business Analyst,225000,"Los Angeles, CA",5.0,2.0,210000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,504000,"Seattle, WA",10.0,0.0,504000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,550000,"Los Gatos, CA",15.0,5.0,550000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,490000,"Los Gatos, CA",15.0,5.0,490000.0,0.0,0,1,0,0,0,False
+Netflix,Data Scientist,400000,"Los Gatos, CA",4.0,0.0,400000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,480000,"Los Gatos, CA",10.0,4.0,480000.0,0.0,0,0,0,1,0,False
+Netflix,Software Engineer,550000,"Los Gatos, CA",12.0,1.0,550000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,480000,"Los Gatos, CA",5.0,0.0,480000.0,0.0,1,0,0,0,0,False
+Netflix,Software Engineer,473000,"Los Gatos, CA",15.0,5.0,450000.0,0.0,0,1,0,0,0,False
+Netflix,Software Engineer,499000,"Los Gatos, CA",16.0,2.0,499000.0,0.0,0,0,0,0,0,False
+Netflix,Data Scientist,605000,"Los Gatos, CA",5.0,3.0,605000.0,0.0,0,0,1,0,0,False
+Netflix,Software Engineering Manager,525000,"Los Gatos, CA",14.0,1.0,525000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,360000,"Los Gatos, CA",5.0,1.0,360000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,630000,"Los Gatos, CA",10.0,1.0,600000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,365000,"Los Gatos, CA",10.0,5.0,365000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,380000,"San Francisco, CA",10.0,3.0,380000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,399000,"Los Gatos, CA",7.0,0.0,380000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineering Manager,420000,"Los Gatos, CA",6.0,2.5,400000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,393000,"Los Gatos, CA",8.0,0.0,375000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,430000,"Los Gatos, CA",10.0,2.0,410000.0,0.0,0,0,0,0,0,False
+Netflix,Software Engineer,440000,"Los Gatos, CA",7.0,0.0,425000.0,0.0,0,0,0,0,0,False
