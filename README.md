@@ -3,7 +3,6 @@ Throughout the years, plenty of technology companies have emerged. Within the te
 With a given dataset that contains different companies, positions, and salary, through data cleaning and wrangling, we can use models to predict and see which FAANG company gives the best compensation. 
 
 
-
 # Exploratory Data Analysis
 1. Remove duplicates of education status (i.e. if someone had a bachelors (1) and a masters (1) then we reclassify that row that they only have a masters (1) and not bachelors (0)).
 2. Remove rows with base salary as zero.
