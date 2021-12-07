@@ -11,7 +11,7 @@ With a given dataset that contains different companies, positions, and salary, t
 
 
 # Methods/Models
-
+The Methods we selected
 
 # Model Justification
 (the cross validated results)
