@@ -31,6 +31,12 @@ Also, we removed rows that contained zero within the base salary variable. We th
 
 # Exploratory Data Analysis
 To make sure the data summary is accurate, we made sure that non of our variables had missing values. Given the dataset summary, we were able to look through the count, mean, standard deviation, minimum, maximum and three quartiles. 
+*insert image*
+For further analysis, we created bar graphs and scatter plots. The given bar graphs compares total yearly compensation between the FAANG companies. It has shown that Netflix has the highest pay and Amazon has the lowest pay.
+*insert box plot image*
+With further inspections, we created a scatterplot to compare the total yearly compensation with the years of experience from the employees of the different companies. We also created a scatterplot to compare the total yearly compensation with the years at the different companies.
+*insert scatter plot images*
+We can see that google has the most dispersed area of pay with employees of different experience levels and years at the company. Highest pay from most of the FAANG company is within the 10-20 years of experience range. The years at company variable contains pretty similar compensation throughout the graph. We can see that facebook employees usually stay in the company within 10 years. Amazon has employees ranged from 0 years in the company to 20 years in the company.
 
 
 # Methods/Models
@@ -46,6 +52,8 @@ KNN gave the lowest RMSE, but it's results are not very interpretable, therefore
 
 
 # Conclusion
+
+**possible next steps
 
 This is for the final project of Stat 426.
 
