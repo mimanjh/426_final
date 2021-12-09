@@ -49,10 +49,33 @@ Lastly, we created a histogram to see the distribution of compensasion within al
 
 
 # Methods/Models
-To try differnet modeling methods, we first need to crete a training set and a test set from the dataset. We set **totalyearlycompensation**
+To try differnet modeling methods, we first need to crete a training set and a test set from the dataset. We set **totalyearlycompensation** as our predicting variable and the rest of the dataset is set as dependent variable. We made our test size 25% due to the large data collected. \
+We selected different regression methods like Linear Regression, knn, Lasso, Decision Tree, Naive bayes, and Forest to test our dataset. Using GridSearchCV we were able to find the appropriate parameter values. By doing so, we were able to calcualte model metrics. We retrieved the **root-mean-square** (rmse) and the **cross validation** (cv) from the models that we have tested. 
 
 # Model Justification
-(the cross validated results)
+Linear Model:
+rmse:  7.362988708711129e-10
+cv:  2.8467565565876175e-10
+ 
+KNN Model:
+rmse:  62610.592543503764
+cv:  15803.461720104542
+ 
+Lasso:
+rmse:  4.239566307252631e-06
+cv:  3.3784014691009395e-06
+ 
+Tree Regressor:
+rmse:  68087.21755274128
+cv:  20522.0325581909
+ 
+Forest:
+rmse:  117870.44830855382
+cv:  79758.59977031744
+ 
+Naive Bayes: 
+rmse:  143560.01764258926
+cv:  147268.57615946242
 
 
 # Results
