@@ -55,39 +55,45 @@ We selected different regression methods like Linear Regression, knn, Lasso, Dec
 # Model Justification
 **Linear Model**:
 rmse:  7.362988708711129e-10 \
-cv:  2.8467565565876175e-10 \
+cv:  2.8467565565876175e-10 
  
 **KNN Model**:
 rmse:  62610.592543503764 \
-cv:  15803.461720104542 \
+cv:  15803.461720104542 
  
 **Lasso**:
 rmse:  4.239566307252631e-06 \
-cv:  3.3784014691009395e-06 \
+cv:  3.3784014691009395e-06 
  
 **Tree Regressor**:
 rmse:  68087.21755274128 \
-cv:  20522.0325581909 \
+cv:  20522.0325581909 
  
 **Forest**:
 rmse:  117870.44830855382 \
-cv:  79758.59977031744 \
+cv:  79758.59977031744 
  
 **Naive Bayes**: 
 rmse:  143560.01764258926 \
-cv:  147268.57615946242 \
+cv:  147268.57615946242 
 
 *The given list is the rmse and cv we have retrieved from the models*
 To find the best model, we would want a model with the lowest rmse. Linear model and lasso regression has the lowest retrieveble rmse, yet due to assumptions not met, we look for the next lowest model. KNN contains the thrid lowest RMSE. However, it's results are not very interpretable. Therefore we will go with the next best model which was the decision tree with 15 leaves. (Decision Tree model with 15 leaves contains the 2nd lowest RMSE.)
 
 # Results
+As we run decision tree, we sorted the values to see the relation and the importance between variables. 
 
-*insert coefficient value table below*
-From the given table, we can see that the coefficient value 
+*insert coefficient value table below* \
+
+From the given table, we can see the coefficient value between **totalyearlycompensation** and the independent variables. From then, we can see which variables correlates to **totalyearlycompensation**. This can help us analyze which scenarios would give us the great **totalyearlycompensation**
+From the table, **totalyearlycompensation** has coefficient values with variables **bonus, basesalary, yearsatcompany, title_Software Engineer, yearsofexperience, company_Facebook, company_Google, company_Amazon, Masters_Degree**
 
 # Conclusion
+From results, we can conclude a scenario that would give the best total compensation per year. It is more idealistic for someone who has been in the company for some years with bonus and a base salary to receive a higher yearly compensation. Software Engineers receive a higher pay from other job positions within the companies. Facebook, Google, Amazon give the highest compensation within the FAANG company. Between the three, Facebook has the highest compensation. Lastly, having a masters degree may contribute more to a higher compensation. 
+Thus, idealistically, if someone wants to have a high salary working in a FAANG comapny, he or she should have a masters degree in software engineering and work for Facebook, Amazon, and Google for a few years.
 
-**possible next steps
+**Possible Next Steps**
+Because our coefficient values are not very significant. Our possible next steps may be
 
 This is for the final project of Stat 426.
 
