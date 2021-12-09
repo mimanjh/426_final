@@ -6,23 +6,23 @@ With a given dataset that contains different companies, positions, and salary, t
 # Data Cleaning
 
 The dataset given contains the following variables:
-totalyearlycompensation: Total Yearly Salary per given person
-yearsofexperience: Total experience/years in field per given person
-yearsatcompany: Total years working at the company per given person
-basesalary: Total base salary for given position per given person
-bonus: Bonus given per given person
-company_Amazon: binary variable of whether the company is Amazon or not (1,0)
-company_Apple: binary variable of whether the company is Apple or not (1,0)
-company_Netflix: binary variable of whether the company is Netflix or not (1,0)
-company_Google: binary variable of whether the company is Google or not (1,0)
-company_Facebook: binary variable of whether the company is Facebook or not (1,0)
-title_Mechanical Engineer: binary variable of the person is Mechanical Engineer or not (1,0)
-title_Product Designer: binary variable of the person is Product Designer or not (1,0)
-title_Product Manager: binary variable of the person is Project Manager or not (1,0)
-title_Recruiter: binary variable of the person is Recruiter or not (1,0)
-title_Sales: binary variable of the person is Sales person or not (1,0)
-title_Software Engineer: binary variable of the person is Software Engineer or not (1,0)
-title_Software Engineering Manager: binary variable of the person is Software Engineering Manager or not (1,0)
+* totalyearlycompensation: Total Yearly Salary per given person.
+* yearsofexperience: Total experience/years in field per given person
+* yearsatcompany: Total years working at the company per given person
+* basesalary: Total base salary for given position per given person
+* bonus: Bonus given per given person
+* company_Amazon: binary variable of whether the company is Amazon or not (1,0)
+* company_Apple: binary variable of whether the company is Apple or not (1,0)
+* company_Netflix: binary variable of whether the company is Netflix or not (1,0)
+* company_Google: binary variable of whether the company is Google or not (1,0)
+* company_Facebook: binary variable of whether the company is Facebook or not (1,0)
+* title_Mechanical Engineer: binary variable of the person is Mechanical Engineer or not (1,0)
+* title_Product Designer: binary variable of the person is Product Designer or not (1,0)
+* title_Product Manager: binary variable of the person is Project Manager or not (1,0)
+* title_Recruiter: binary variable of the person is Recruiter or not (1,0)
+* title_Sales: binary variable of the person is Sales person or not (1,0)
+* title_Software Engineer: binary variable of the person is Software Engineer or not (1,0)
+* title_Software Engineering Manager: binary variable of the person is Software Engineering Manager or not (1,0)
 
 
 With further inspection of the dataset, we realized that there are duplicates within some variables of the dataset. The duplicates mostly showed up within the education status of the given person. For example, if someone had a bachelors (1) and a masters (1) then we reclassify that row that they only have a masters (1) and not bachelors (0).
@@ -30,7 +30,7 @@ Also, we removed rows that contained zero within the base salary variable. We th
 
 
 # Exploratory Data Analysis
-
+Upon futher inspection, we realized that 
 
 
 # Methods/Models
