@@ -30,7 +30,7 @@ Also, we removed rows that contained zero within the base salary variable. We th
 
 
 # Exploratory Data Analysis
-Upon futher inspection, we realized that 
+To make sure the data summary is accurate, we made sure that non of our variables had missing values. Given the dataset summary, we were able to look through the count, mean, standard deviation, minimum, maximum and three quartiles. 
 
 
 # Methods/Models
@@ -41,6 +41,8 @@ The Methods we selected
 
 
 # Results
+
+KNN gave the lowest RMSE, but it's results are not very interpretable, therefore we will go with the second best model which was the decision tree with 15 leaves. Its variable importance features are given below.
 
 
 # Conclusion
