@@ -35,17 +35,17 @@ To make sure the data summary is accurate, we made sure that non of our variable
 ![plots](/figures/1.png)
 
 For further analysis, we created bar graphs and scatter plots. The given bar graphs compares total yearly compensation between the FAANG companies. It has shown that Netflix has the highest pay and Amazon has the lowest pay.\
-*insert box plot image* \
+![plots](/figures/2.png)
 
 With further inspections, we created a scatterplot to compare the total yearly compensation with the years of experience from the employees of the different companies. We also created a scatterplot to compare the total yearly compensation with the years at the different companies.
 We can see that google has the most dispersed area of pay with employees of different experience levels and years at the company. Highest pay from most of the FAANG company is within the 10-20 years of experience range. The years at company variable contains pretty similar compensation throughout the graph. We can see that facebook employees usually stay in the company within 10 years. Google employees usually stay within the company for 15 years with some exception that stayed for more that 15 years. Amazon has employees ranged from 0 years in the company to 20 years in the company.\
-*insert scatter plot images* \
+![plots](/figures/3.png)
 
 To see the relation between education level and total yearly compensation of each company, we created a bar plot. We can see that Netflix and Google give the highest compensation for workers that has education level of some college. Surprisingly, Apple gives a higher compensation for workers with high school diploma. Facebook and Amazon, on the other hand, compensate more for employees with PhD. \
-*insert bar chart* \
+![plots](/figures/4.png)
 
 Lastly, we created a histogram to see the distribution of compensasion within all of the FAANG companies. \
-*insert histogram* \
+![plots](/figures/5.png)
 
 
 # Methods/Models
@@ -83,7 +83,7 @@ To find the best model, we would want a model with the lowest rmse. Linear model
 # Results
 As we run decision tree, we sorted the values to see the relation and the importance between variables. 
 
-*insert coefficient value table below* \
+![plots](/figures/coefficient.png)
 
 From the given table, we can see the coefficient value between **totalyearlycompensation** and the independent variables. From then, we can see which variables correlates to **totalyearlycompensation**. This can help us analyze which scenarios would give us the great **totalyearlycompensation**
 From the table, **totalyearlycompensation** has coefficient values with variables **bonus, basesalary, yearsatcompany, title_Software Engineer, yearsofexperience, company_Facebook, company_Google, company_Amazon, Masters_Degree**
@@ -92,7 +92,7 @@ From the table, **totalyearlycompensation** has coefficient values with variable
 From results, we can conclude a scenario that would give the best total compensation per year. It is more idealistic for someone who has been in the company for some years with bonus and a base salary to receive a higher yearly compensation. Software Engineers receive a higher pay from other job positions within the companies. Facebook, Google, Amazon give the highest compensation within the FAANG company. Between the three, Facebook has the highest compensation. Lastly, having a masters degree may contribute more to a higher compensation. 
 Thus, idealistically, if someone wants to have a high salary working in a FAANG comapny, he or she should have a masters degree in software engineering and work for Facebook, Amazon, and Google for a few years with a base salary and a bonus.
 
-**Possible Next Steps**
+**Possible Next Steps** /
 Because our coefficient values are not very significant. Our possible next steps may be adjusting the coefficient value or the variables to find a more significant value. We can also create prediction by allowing people manually type in numbers for different variables.
 
 by Jacob Hunsaker, Emily Liu, Felicia Seng
