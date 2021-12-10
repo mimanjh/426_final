@@ -24,7 +24,7 @@ Furthermore, as part of the data cleaning process, we created dummy variables fo
 Upon additional consideration, we felt the company location feature would have a high correlation with the company would thus add additional possibly weighted effects to our results. Therefore, we excluded this variable from our analysis.
 
 Our newly cleaned dataset that we used in our modeling contained the following variables:
-* **totalyearlycompensation**: Total Yearly Salary per given person.
+* **totalyearlycompensation**: Total yearly salary per given person.
 * **yearsofexperience**: Total experience/years in field per given person
 * **yearsatcompany**: Total years working at the company per given person
 * **basesalary**: Total base salary for given position per given person
