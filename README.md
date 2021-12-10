@@ -53,29 +53,29 @@ To try differnet modeling methods, we first need to crete a training set and a t
 We selected different regression methods like Linear Regression, knn, Lasso, Decision Tree, Naive bayes, and Forest to test our dataset. Using GridSearchCV we were able to find the appropriate parameter values. By doing so, we were able to calcualte model metrics. We retrieved the **root-mean-square-error** (rmse) and the **cross validation** (cv) from the models that we have tested. 
 
 # Model Justification
-**Linear Model**:
-rmse:  7.362988708711129e-10 \
-cv:  2.8467565565876175e-10 
+**Linear Model**: \
+rmse:  < 0.01 \
+cv:  < 0.01 
  
-**KNN Model**:
-rmse:  62610.592543503764 \
-cv:  15803.461720104542 
+**KNN Model**: \
+rmse:  62610.59 \
+cv:  15803.46 
  
-**Lasso**:
-rmse:  4.239566307252631e-06 \
-cv:  3.3784014691009395e-06 
+**Lasso**: \
+rmse:  < 0.01 \
+cv:  < 0.01 \ 
  
-**Tree Regressor**:
-rmse:  68087.21755274128 \
-cv:  20522.0325581909 
+**Tree Regressor**: \
+rmse:  68087.21 \
+cv:  20522.03 
  
-**Forest**:
-rmse:  117870.44830855382 \
-cv:  79758.59977031744 
+**Forest**: \
+rmse:  117870.448 \
+cv:  79758.60 \
  
-**Naive Bayes**: 
-rmse:  143560.01764258926 \
-cv:  147268.57615946242 
+**Naive Bayes**: \
+rmse:  143560.02 \
+cv:  147268.58
 
 *The given list is the rmse and cv we have retrieved from the models*
 To find the best model, we would want a model with the lowest rmse. Linear model and lasso regression has the lowest retrieveble rmse, yet due to assumptions not met, we look for the next lowest model. KNN contains the thrid lowest RMSE. However, it's results are not very interpretable. Therefore we will go with the next best model which was the decision tree with 15 leaves. (Decision Tree model with 15 leaves contains the 2nd lowest RMSE.)
@@ -92,7 +92,7 @@ From the table, **totalyearlycompensation** has coefficient values with variable
 From results, we can conclude a scenario that would give the best total compensation per year. It is more idealistic for someone who has been in the company for some years with bonus and a base salary to receive a higher yearly compensation. Software Engineers receive a higher pay from other job positions within the companies. Facebook, Google, Amazon give the highest compensation within the FAANG company. Between the three, Facebook has the highest compensation. Lastly, having a masters degree may contribute more to a higher compensation. 
 Thus, idealistically, if someone wants to have a high salary working in a FAANG comapny, he or she should have a masters degree in software engineering and work for Facebook, Amazon, and Google for a few years with a base salary and a bonus.
 
-**Possible Next Steps** /
+**Possible Next Steps** \
 Because our coefficient values are not very significant. Our possible next steps may be adjusting the coefficient value or the variables to find a more significant value. We can also create prediction by allowing people manually type in numbers for different variables.
 
 by Jacob Hunsaker, Emily Liu, Felicia Seng
