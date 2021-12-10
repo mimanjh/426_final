@@ -17,11 +17,13 @@ Although this dataset included many different features, the features that were o
 * **title**: the job position of each company
 * **location**: the location of the company office
 
-Because our question of interest only pertained to the five FAANG companies, we had to select those specific rows to create a new, cleaner dataset. It is important to note that within the dataset, the names of the companies were termed with different capitalization styles as well as titles (i.e Amazon, Amazon Inc., amazon, Amazon Web Services, Google, google, etc). Therefore, in order to effectively prepare the dataset for modeling, we had to select all rows regardless of terming style and rename the company names. The data cleaning for this particular portion of the analysis can be found in three different files on this repository called emily-wrangle, jacob-wrangle, and Felicia-Wrangling.
+Because our question of interest only pertained to the five FAANG companies, we had to select those specific rows to create a new, cleaner dataset. It is important to note that within the dataset, the names of the companies were termed with different capitalization styles as well as titles (i.e Amazon, Amazon Inc., amazon, Amazon Web Services, Google, google, etc). Therefore, in order to effectively prepare the dataset for modeling, we had to select all rows regardless of terming style and rename the company names. The data cleaning for this particular portion of the analysis can be found in three different files on this repository called emily_wrangle.ipynb, jacob_wrangle.ipynb, and Felicia-Wrangling.ipynb.
 
-Furthermore, as part of the data cleaning process, we created dummy variables for the company names, the location, and the job title as they were categorical variables.
+Furthermore, as part of the data cleaning process, we created dummy variables for the company names, the location, and the job title as they were categorical variables. 
 
-The dataset given contains the following variables:
+Upon additional consideration, we felt the company location feature would have a high correlation with the company would thus add additional possibly weighted effects to our results. Therefore, we excluded this variable from our analysis.
+
+Our newly cleaned dataset that we used in our modeling contained the following variables:
 * **totalyearlycompensation**: Total Yearly Salary per given person.
 * **yearsofexperience**: Total experience/years in field per given person
 * **yearsatcompany**: Total years working at the company per given person
@@ -32,6 +34,11 @@ The dataset given contains the following variables:
 * **company_Netflix**: binary variable of whether the company is Netflix or not (1,0)
 * **company_Google**: binary variable of whether the company is Google or not (1,0)
 * **company_Facebook**: binary variable of whether the company is Facebook or not (1,0)
+* **Highschool**: binary variable of whether the individual has went to high school or not (1,0)
+* **Bachelors_Degree**: binary variable of whether the individual has a bachelor's degree or not (1,0)
+* **Masters_Degree**: binary variable of whether the individual has a master's degree or not (1,0)
+* **Doctorate_Degree**: binary variable of whether the individual has a PhD or not (1,0)
+* **Some_College**: binary variable of whether the individual has some college experience or not (1,0)
 * **title_Mechanical Engineer**: binary variable of the person is Mechanical Engineer or not (1,0)
 * **title_Product Designer**: binary variable of the person is Product Designer or not (1,0)
 * **title_Product Manager**: binary variable of the person is Project Manager or not (1,0)
@@ -40,8 +47,7 @@ The dataset given contains the following variables:
 * **title_Software Engineer**: binary variable of the person is Software Engineer or not (1,0)
 * **title_Software Engineering Manager**: binary variable of the person is Software Engineering Manager or not (1,0)
 
-
-With further inspection of the dataset, we realized that there are duplicates within some variables of the dataset. The duplicates mostly showed up within the education status of the given person. For example, if someone had a bachelors (1) and a masters (1) then we reclassify that row that they only have a masters (1) and not bachelors (0).\
+With further inspection of the dataset, we found duplicates within the education features of the dataset that we thought were unnecessary for the analysis and would introduced unwanted bias into the data. For example, if someone had a bachelors (1) and a masters (1) it is possible that this observation would affect the results of both the education, we reclassified that row to only have a masters (1) and not bachelors (0).  \
 Also, we removed rows that contained zero within the base salary variable. We then noticed that there are also zero values for some 'yearsofexperience' and 'yearsatcompany' variables. In this case, we will assume that they are newly hired people and will not drop those 0 values. Because there would be a correlation between the companies and the location of where the companies are based in in relation to the total yearly compensation variable, we decided to drop the location variable.
 
 
