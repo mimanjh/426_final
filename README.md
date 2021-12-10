@@ -5,7 +5,7 @@ With a given dataset that contains different companies, positions, and salary, t
 
 # Data Cleaning
 
-The data that we used in this analysis was found here: https://www.kaggle.com/jackogozaly/data-science-and-stem-salaries. It contains 125,000 observations of different employees (de-identified), the company they work at, their job position, their salary, and other information. After reading in the data, we had to perform extensive data cleaning and wrangling in order to answer our question of interest.
+The data that we used in this analysis was found here: https://www.kaggle.com/jackogozaly/data-science-and-stem-salaries. It contains 125,000 observations of different employees (de-identified), the company they work at, their job position, their salary, and other information. After reading in the data, we had to perform extensive data cleaning and wrangling in order to answer our question of interest. \
 
 Although this dataset included many different features, the features that were of interest to us in this dataset included the following variables:
 * **totalyearlycompensation**: Total yearly salary per given person
@@ -17,11 +17,11 @@ Although this dataset included many different features, the features that were o
 * **title**: the job position of each company
 * **location**: the location of the company office
 
-Because our question of interest only pertained to the five FAANG companies, we had to select those specific rows to create a new, cleaner dataset. It is important to note that within the dataset, the names of the companies were termed with different capitalization styles as well as titles (i.e Amazon, Amazon Inc., amazon, Amazon Web Services, Google, google, etc). Therefore, in order to effectively prepare the dataset for modeling, we had to select all rows regardless of terming style and rename the company names. The data cleaning for this particular portion of the analysis can be found in three different files on this repository called emily_wrangle.ipynb, jacob_wrangle.ipynb, and Felicia-Wrangling.ipynb.
+Because our question of interest only pertained to the five FAANG companies, we had to select those specific rows to create a new, cleaner dataset. It is important to note that within the dataset, the names of the companies were termed with different capitalization styles as well as titles (i.e Amazon, Amazon Inc., amazon, Amazon Web Services, Google, google, etc). Therefore, in order to effectively prepare the dataset for modeling, we had to select all rows regardless of terming style and rename the company names. The data cleaning for this particular portion of the analysis can be found in three different files on this repository called emily_wrangle.ipynb, jacob_wrangle.ipynb, and Felicia-Wrangling.ipynb.\
 
-Furthermore, as part of the data cleaning process, we created dummy variables for the company names, the location, and the job title as they were categorical variables. 
+Furthermore, as part of the data cleaning process, we created dummy variables for the company names, the location, and the job title as they were categorical variables.\
 
-Upon additional consideration, we felt the company location feature would have a high correlation with the company would thus add additional possibly weighted effects to our results. Therefore, we excluded this variable from our analysis.
+Upon additional consideration, we felt the company location feature would have a high correlation with the company would thus add additional possibly weighted effects to our results. Therefore, we excluded this variable from our analysis.\
 
 Our newly cleaned dataset that we used in our modeling contained the following variables:
 * **totalyearlycompensation**: Total Yearly Salary per given person.
@@ -47,19 +47,19 @@ Our newly cleaned dataset that we used in our modeling contained the following v
 * **title_Software Engineer**: binary variable of the person is Software Engineer or not (1,0)
 * **title_Software Engineering Manager**: binary variable of the person is Software Engineering Manager or not (1,0)
 
-With further inspection of the dataset, we found duplicates within the education features of the dataset that we thought were unnecessary for the analysis and would introduced unwanted bias into the data. For example, if someone had a bachelors (1) and a masters (1) it is possible that this observation would affect the results of both the education, we reclassified that row to only have a masters (1) and not bachelors (0).  \
-Also, we removed rows that contained zero within the base salary variable. We then noticed that there are also zero values for some 'yearsofexperience' and 'yearsatcompany' variables. In this case, we will assume that they are newly hired people and will not drop those 0 values. Because there would be a correlation between the companies and the location of where the companies are based in in relation to the total yearly compensation variable, we decided to drop the location variable.
+With further inspection of the dataset, we found duplicates within the education features of the dataset that we thought were unnecessary for the analysis and would introduced unwanted bias into the data. For example, if someone had a bachelors (1) and a masters (1) it is possible that this observation would affect the results of both the Masters_Degree and Bachelors_Degree. Therefore, we reclassified rows similar to this to only mark the highest degree of education degree as (1) and all other degrees of education as (0). \
 
+We removed rows containing zero values within the base salary variable. We also noticed existing zero values for several values for 'yearsofexperience' and 'yearsatcompany' variables. In this case, they are newly hired people and so we did not drop these zero values. \
 
 # Exploratory Data Analysis
-To make sure the data summary is accurate, we made sure that non of our variables had missing values. Given the dataset summary, we were able to look through the count, mean, standard deviation, minimum, maximum and three quartiles. \
+To make sure the data summary is accurate, we made sure that none of our variables had missing values. Given the dataset summary, we were able to look through the count, mean, standard deviation, minimum, maximum and three quartiles. \
 ![plots](/figures/1.png)
 
-For further analysis, we created bar graphs and scatter plots. The given bar graphs compares total yearly compensation between the FAANG companies. It has shown that Netflix has the highest pay and Amazon has the lowest pay.\
+For further exploratory analysis, we created bar graphs and scatter plots. The given bar graphs compares total yearly compensation between the FAANG companies. It was intersting to find that Netflix has the highest pay and Amazon has the lowest pay. \
 ![plots](/figures/2.png)
 
-With further inspections, we created a scatterplot to compare the total yearly compensation with the years of experience from the employees of the different companies. We also created a scatterplot to compare the total yearly compensation with the years at the different companies.
-We can see that google has the most dispersed area of pay with employees of different experience levels and years at the company. Highest pay from most of the FAANG company is within the 10-20 years of experience range. The years at company variable contains pretty similar compensation throughout the graph. We can see that facebook employees usually stay in the company within 10 years. Google employees usually stay within the company for 15 years with some exception that stayed for more that 15 years. Amazon has employees ranged from 0 years in the company to 20 years in the company.\
+We created a scatterplot to compare the total yearly compensation with the years of experience from the employees of the different companies. We also created a scatterplot to compare the total yearly compensation with the years at the different companies.
+We can see that google has the most dispersed area of pay with employees of different experience levels and years at the company. Highest pay from most of the FAANG company is within the 10-20 years of experience range. The years at company variable contains pretty similar compensation throughout the graph. We can see that facebook employees usually stay in the company within 10 years. Google employees usually stay within the company for 15 years with some exceptions that stayed for more that 15 years. Amazon has employees ranged from 0 years in the company to 20 years in the company.\
 ![plots](/figures/3.png)
 
 To see the relation between education level and total yearly compensation of each company, we created a bar plot. We can see that Netflix and Google give the highest compensation for workers that has education level of some college. Surprisingly, Apple gives a higher compensation for workers with high school diploma. Facebook and Amazon, on the other hand, compensate more for employees with PhD. \
@@ -70,50 +70,48 @@ Lastly, we created a histogram to see the distribution of compensasion within al
 
 
 # Methods/Models
-To try differnet modeling methods, we first need to crete a training set and a test set from the dataset. We set **totalyearlycompensation** as our predicting variable and the rest of the dataset is set as dependent variable. We made our test size 25% due to the large data collected. \
-We selected different regression methods like Linear Regression, knn, Lasso, Decision Tree, Naive bayes, and Forest to test our dataset. Using GridSearchCV we were able to find the appropriate parameter values. By doing so, we were able to calcualte model metrics. We retrieved the **root-mean-square-error** (rmse) and the **cross validation** (cv) from the models that we have tested. 
+We created a training set and a test set from the dataset in order to test various models and cross validations. We set **totalyearlycompensation** as our predictor variable and the rest of the dataset is set as dependent variables. We made our test size 25% of our train data set to create our models and perform cross validations. \
+We selected different statistical models such as linear regression, KNN, lasso, decision tree, naive bayes, and a random forest model to find which features most impacts the total yearly compensation an employee receives. We retrieved the **root-mean-square-error** (rmse) and the **cross validation** (cv) from the models that we have tested to compare model performances. The following are the results of our in-sample and cross validated results
 
 # Model Justification
 **Linear Model**: \
-rmse:  < 0.01 \
-cv:  < 0.01 
+In-sample RMSE:  < 0.01 \
+CV:  < 0.01 
  
 **KNN Model**: \
-rmse:  62610.59 \
-cv:  15803.46 
+In-sample RMSE:  62610.59 \
+CV:  15803.46 
  
 **Lasso**: \
-rmse:  < 0.01 \
-cv:  < 0.01  
+In-sample RMSE:  < 0.01 \
+CV:  < 0.01  
  
-**Tree Regressor**: \
-rmse:  68087.21 \
-cv:  20522.03 
+**Decision Tree**: \
+In-sample RMSE:  68087.21 \
+CV:  20522.03 
  
-**Forest**: \
-rmse:  117870.448 \
-cv:  79758.60 
+**Random Forest**: \
+In-sample RMSE:  117870.448 \
+CV:  79758.60 
  
 **Naive Bayes**: \
-rmse:  143560.02 \
-cv:  147268.58
+In-sample RMSE:  143560.02 \
+CV:  147268.58
 
-*The given list is the rmse and cv we have retrieved from the models*
-To find the best model, we would want a model with the lowest rmse. Linear model and lasso regression has the lowest retrieveble rmse, yet due to assumptions not met, we look for the next lowest model. KNN contains the thrid lowest RMSE. However, it's results are not very interpretable. Therefore we will go with the next best model which was the decision tree with 15 leaves. (Decision Tree model with 15 leaves contains the 2nd lowest RMSE.)
+It was interesting to find that linear model and lasso regression has the lowest retrieveble RMSE. However, due to models assumptions not being met, we did not consider these models for further interpretation and performance value. KNN and the decision tree model had the next lowest RMSE values with $15,803 and $20,522 respectively. Because our question of interest is to know which variables have the largest influence in an a company's total yearly compensation, we selected the decision tree of our model of choice because of the KNN model's results' lack in interpretability.
 
 # Results
-As we run decision tree, we sorted the values to see the relation and the importance between variables. 
+The follow gives a visual of the variable importance values extracted from the decision tree model:
 
 ![plots](/figures/coefficient.png)
 
-From the given table, we can see the coefficient value between **totalyearlycompensation** and the independent variables. From then, we can see which variables correlates to **totalyearlycompensation**. This can help us analyze which scenarios would give us the great **totalyearlycompensation**
-From the table, **totalyearlycompensation** has coefficient values with variables **bonus, basesalary, yearsatcompany, title_Software Engineer, yearsofexperience, company_Facebook, company_Google, company_Amazon, Masters_Degree**
+From the given table, we can see the coefficient value between **totalyearlycompensation** and the independent variables. From then, we can see how each variable influences **totalyearlycompensation**. This can help us analyze which scenarios would give us the great **totalyearlycompensation**.
+From the table, **totalyearlycompensation** has variable importance values with variables **bonus, basesalary, yearsatcompany, title_Software Engineer, yearsofexperience, company_Facebook, company_Google, company_Amazon, Masters_Degree**. We conclude that the bonus, base salary, and years at a company are the most important features in affecting the total yearly compensation a company receives from their company.
 
 # Conclusion
-From results, we can conclude a scenario that would give the best total compensation per year. It is more idealistic for someone who has been in the company for some years with bonus and a base salary to receive a higher yearly compensation. Software Engineers receive a higher pay from other job positions within the companies. Facebook, Google, Amazon give the highest compensation within the FAANG company. Between the three, Facebook has the highest compensation. Lastly, having a masters degree may contribute more to a higher compensation. 
-Thus, idealistically, if someone wants to have a high salary working in a FAANG comapny, he or she should have a masters degree in software engineering and work for Facebook, Amazon, and Google for a few years with a base salary and a bonus.
+In conclusion, it is more idealistic for someone who has been in the company for some years with bonus and a base salary to see their total yearly compensation affected. Therefore, based on our analysis, we recommend those looking for employment in the STEM field within the FAANG companies to consider these variables as a few that would influence the total yearly compensation one would receive.
 
 **Possible Next Steps** \
-Because our coefficient values are not very significant. Our possible next steps may be adjusting the coefficient value or the variables to find a more significant value. We can also create prediction by allowing people manually type in numbers for different variables. We can also considering over and under sampling our data due to the imbalance in company data. We noticed that data pertaining to Netflix was much smaller than the amount of data pertaining to other companies thus leading to possible bias.
+Our possible next steps may be adjusting the number of observations we have for each company by over and under sampling our data. We found that the imbalance between Netflix company observations (~200) compared to the other companies' observations (~1000) may lead to unwanted bias. We would also consider extending our analysis by using our model to create predictions for certain working scenarios so that other may know exactly how much their total yearly compensation would be given a certain job title, the company they work at, their base salary, etc.
 
 by Jacob Hunsaker, Emily Liu, Felicia Seng
