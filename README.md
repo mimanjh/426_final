@@ -1,10 +1,25 @@
 # Introduction
 
 Throughout the years, plenty of technology companies have emerged. Within the technology field, five companies are known for being the most prominent technological companies of America. They are known as the FAANG company. FAANG company contains Facebook, Amazon, Apple, Netflix and Google. STEM major graduates that work within these companies are known for receiving high compensations. Our question of interest is to determine which working demographics in the STEM field yield the highest total yearly compensation.
-With a given dataset that contains different companies, positions, and salary, through data cleaning and wrangling, we can use models to predict and see which FAANG company gives the best compensation. \
-Our main focus of interest for this given project is to see which working scenario would give the best total compensation per year.
+With a given dataset that contains different companies, positions, and salary, through data cleaning and wrangling, we can used a decision tree model to investigate which features influenced the total yearly compensation of these FAANG companies. \
 
 # Data Cleaning
+
+The data that we used in this analysis was found here: https://www.kaggle.com/jackogozaly/data-science-and-stem-salaries. It contains 125,000 observations of different employees (de-identified), the company they work at, their job position, their salary, and other information. After reading in the data, we had to perform extensive data cleaning and wrangling in order to answer our question of interest.
+
+Although this dataset included many different features, the features that were of interest to us in this dataset included the following variables:
+* **totalyearlycompensation**: Total yearly salary per given person
+* **yearsofexperience**: Total experience/years in field per given person
+* **yearsatcompany**: Total years working at the company per given person
+* **basesalary**: Total base salary for given position per given person
+* **bonus**: Bonus given per given person
+* **company**: the names of many different STEM companies
+* **title**: the job position of each company
+* **location**: the location of the company office
+
+Because our question of interest only pertained to the five FAANG companies, we had to select those specific rows to create a new, cleaner dataset. It is important to note that within the dataset, the names of the companies were termed with different capitalization styles as well as titles (i.e Amazon, Amazon Inc., amazon, Amazon Web Services, Google, google, etc). Therefore, in order to effectively prepare the dataset for modeling, we had to select all rows regardless of terming style and rename the company names. The data cleaning for this particular portion of the analysis can be found in three different files on this repository called emily-wrangle, jacob-wrangle, and Felicia-Wrangling.
+
+Furthermore, as part of the data cleaning process, we created dummy variables for the company names, the location, and the job title as they were categorical variables.
 
 The dataset given contains the following variables:
 * **totalyearlycompensation**: Total Yearly Salary per given person.
