@@ -90,11 +90,14 @@ From the table, **totalyearlycompensation** has coefficient values with variable
 
 # Conclusion
 From results, we can conclude a scenario that would give the best total compensation per year. It is more idealistic for someone who has been in the company for some years with bonus and a base salary to receive a higher yearly compensation. Software Engineers receive a higher pay from other job positions within the companies. Facebook, Google, Amazon give the highest compensation within the FAANG company. Between the three, Facebook has the highest compensation. Lastly, having a masters degree may contribute more to a higher compensation. 
-Thus, idealistically, if someone wants to have a high salary working in a FAANG comapny, he or she should have a masters degree in software engineering and work for Facebook, Amazon, and Google for a few years.
+Thus, idealistically, if someone wants to have a high salary working in a FAANG comapny, he or she should have a masters degree in software engineering and work for Facebook, Amazon, and Google for a few years with a base salary and a bonus.
 
 **Possible Next Steps**
-Because our coefficient values are not very significant. Our possible next steps may be
-
+Because our coefficient values are not very significant. Our possible next steps may be adjusting the coefficient value or the variables to find a more significant value. We can also create prediction by allowing people manually type in numbers for different variables.
+.
+.
+.
+.
 This is for the final project of Stat 426.
 
 Data should be stored in data directory.
