@@ -65,7 +65,7 @@ We can see that google has the most dispersed area of pay with employees of diff
 To see the relation between education level and total yearly compensation of each company, we created a bar plot. We can see that Netflix and Google give the highest compensation for workers that has education level of some college. Surprisingly, Apple gives a higher compensation for workers with high school diploma. Facebook and Amazon, on the other hand, compensate more for employees with PhD. \
 ![plots](/figures/4.png)
 
-Lastly, we created a histogram to see the distribution of compensasion within all of the FAANG companies. \
+Lastly, we created a histogram to see the distribution of compensation within all of the FAANG companies. \
 ![plots](/figures/5.png)
 
 
