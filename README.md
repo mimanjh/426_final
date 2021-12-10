@@ -19,7 +19,7 @@ Although this dataset included many different features, the features that were o
 
 Because our question of interest only pertained to the five FAANG companies, we had to select those specific rows to create a new, cleaner dataset. It is important to note that within the dataset, the names of the companies were termed with different capitalization styles as well as titles (i.e Amazon, Amazon Inc., amazon, Amazon Web Services, Google, google, etc). Therefore, in order to effectively prepare the dataset for modeling, we had to select all rows regardless of terming style and rename the company names. The data cleaning for this particular portion of the analysis can be found in three different files on this repository called emily_wrangle.ipynb, jacob_wrangle.ipynb, and Felicia-Wrangling.ipynb.
 
-Furthermore, as part of the data cleaning process, we created dummy variables for the company names, the location, and the job title as they were categorical variables.\
+Furthermore, as part of the data cleaning process, we created dummy variables for the company names, the location, and the job title as they were categorical variables.
 
 Upon additional consideration, we felt the company location feature would have a high correlation with the company would thus add additional possibly weighted effects to our results. Therefore, we excluded this variable from our analysis.
 
@@ -47,15 +47,15 @@ Our newly cleaned dataset that we used in our modeling contained the following v
 * **title_Software Engineer**: binary variable of the person is Software Engineer or not (1,0)
 * **title_Software Engineering Manager**: binary variable of the person is Software Engineering Manager or not (1,0)
 
-With further inspection of the dataset, we found duplicates within the education features of the dataset that we thought were unnecessary for the analysis and would introduced unwanted bias into the data. For example, if someone had a bachelors (1) and a masters (1) it is possible that this observation would affect the results of both the Masters_Degree and Bachelors_Degree. Therefore, we reclassified rows similar to this to only mark the highest degree of education degree as (1) and all other degrees of education as (0). \
+With further inspection of the dataset, we found duplicates within the education features of the dataset that we thought were unnecessary for the analysis and would introduced unwanted bias into the data. For example, if someone had a bachelors (1) and a masters (1) it is possible that this observation would affect the results of both the Masters_Degree and Bachelors_Degree. Therefore, we reclassified rows similar to this to only mark the highest degree of education degree as (1) and all other degrees of education as (0).
 
-We removed rows containing zero values within the base salary variable. We also noticed existing zero values for several values for 'yearsofexperience' and 'yearsatcompany' variables. In this case, they are newly hired people and so we did not drop these zero values. \
+We removed rows containing zero values within the base salary variable. We also noticed existing zero values for several values for 'yearsofexperience' and 'yearsatcompany' variables. In this case, they are newly hired people and so we did not drop these zero values.
 
 # Exploratory Data Analysis
-To make sure the data summary is accurate, we made sure that none of our variables had missing values. Given the dataset summary, we were able to look through the count, mean, standard deviation, minimum, maximum and three quartiles. \
+To make sure the data summary is accurate, we made sure that none of our variables had missing values. Given the dataset summary, we were able to look through the count, mean, standard deviation, minimum, maximum and three quartiles.
 ![plots](/figures/1.png)
 
-For further exploratory analysis, we created bar graphs and scatter plots. The given bar graphs compares total yearly compensation between the FAANG companies. It was intersting to find that Netflix has the highest pay and Amazon has the lowest pay. \
+For further exploratory analysis, we created bar graphs and scatter plots. The given bar graphs compares total yearly compensation between the FAANG companies. It was intersting to find that Netflix has the highest pay and Amazon has the lowest pay.
 ![plots](/figures/2.png)
 
 We created a scatterplot to compare the total yearly compensation with the years of experience from the employees of the different companies. We also created a scatterplot to compare the total yearly compensation with the years at the different companies.
