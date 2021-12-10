@@ -32,7 +32,7 @@ Also, we removed rows that contained zero within the base salary variable. We th
 
 # Exploratory Data Analysis
 To make sure the data summary is accurate, we made sure that non of our variables had missing values. Given the dataset summary, we were able to look through the count, mean, standard deviation, minimum, maximum and three quartiles. \
-![plots](426_final/figures/1.png)
+![plots](/figures/1.png)
 
 For further analysis, we created bar graphs and scatter plots. The given bar graphs compares total yearly compensation between the FAANG companies. It has shown that Netflix has the highest pay and Amazon has the lowest pay.\
 *insert box plot image* \
