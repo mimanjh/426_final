@@ -1,11 +1,11 @@
 # Introduction
 
 Throughout the years, plenty of technology companies have emerged. Within the technology field, five companies are known for being the most prominent technological companies of America. They are known as the FAANG company. FAANG company contains Facebook, Amazon, Apple, Netflix and Google. STEM major graduates that work within these companies are known for receiving high compensations. Our question of interest is to determine which working demographics in the STEM field yield the highest total yearly compensation.
-With a given dataset that contains different companies, positions, and salary, through data cleaning and wrangling, we can used a decision tree model to investigate which features influenced the total yearly compensation of these FAANG companies. \
+With a given dataset that contains different companies, positions, and salary, through data cleaning and wrangling, we can used a decision tree model to investigate which features influenced the total yearly compensation of these FAANG companies.
 
 # Data Cleaning
 
-The data that we used in this analysis was found here: https://www.kaggle.com/jackogozaly/data-science-and-stem-salaries. It contains 125,000 observations of different employees (de-identified), the company they work at, their job position, their salary, and other information. After reading in the data, we had to perform extensive data cleaning and wrangling in order to answer our question of interest. \
+The data that we used in this analysis was found here: https://www.kaggle.com/jackogozaly/data-science-and-stem-salaries. It contains 125,000 observations of different employees (de-identified), the company they work at, their job position, their salary, and other information. After reading in the data, we had to perform extensive data cleaning and wrangling in order to answer our question of interest.
 
 Although this dataset included many different features, the features that were of interest to us in this dataset included the following variables:
 * **totalyearlycompensation**: Total yearly salary per given person
