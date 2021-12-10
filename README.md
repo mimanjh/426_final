@@ -71,9 +71,8 @@ Lastly, we created a histogram to see the distribution of compensation within al
 
 # Methods/Models
 We created a training set and a test set from the dataset in order to test various models and cross validations. We set **totalyearlycompensation** as our predictor variable and the rest of the dataset is set as dependent variables. We made our test size 25% of our train data set to create our models and perform cross validations. \
-We selected different statistical models such as linear regression, KNN, lasso, decision tree, naive bayes, and a random forest model to find which features most impacts the total yearly compensation an employee receives. We retrieved the **root-mean-square-error** (rmse) and the **cross validation** (cv) from the models that we have tested to compare model performances. The following are the results of our in-sample and cross validated results
+We selected different statistical models such as linear regression, KNN, lasso, decision tree, naive bayes, and a random forest model to find which features most impacts the total yearly compensation an employee receives. We retrieved the **root-mean-square-error** (rmse) and the **cross validation** (cv) from the models that we have tested to compare model performances. The following are the results of our in-sample and cross validated results:
 
-# Model Justification
 **Linear Model**: \
 In-sample RMSE:  < 0.01 \
 CV:  < 0.01 
