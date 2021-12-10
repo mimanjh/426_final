@@ -95,4 +95,4 @@ Thus, idealistically, if someone wants to have a high salary working in a FAANG 
 **Possible Next Steps**
 Because our coefficient values are not very significant. Our possible next steps may be adjusting the coefficient value or the variables to find a more significant value. We can also create prediction by allowing people manually type in numbers for different variables.
 
-- Jacob Hunsaker, Emily Liu, Felicia Seng
+by Jacob Hunsaker, Emily Liu, Felicia Seng
